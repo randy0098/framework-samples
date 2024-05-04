@@ -70,4 +70,14 @@ public class UserController {
     result.add(user2);
     return result;
   }
+
+  /**
+   * 返回字符串类型的结果值
+   *
+   * @return
+   */
+  @GetMapping(value = "/test4")
+  public String test4() {
+    return "success";
+  }
 }

@@ -2,10 +2,6 @@ package com.framework.backend.enums;
 
 import org.springframework.http.HttpStatus;
 
-/**
- * @author xiafeng
- */
-@SuppressWarnings("AlibabaEnumConstantsMustHaveComment")
 public enum ResultCode {
   SUCCESS(HttpStatus.OK.value(), "成功"),
   FAIL(HttpStatus.INTERNAL_SERVER_ERROR.value(), "系统内部错误"),
