@@ -86,6 +86,7 @@
 
     <modules>
         <module>response-result</module>
+        <module>global-exception</module>
     </modules>
 
     <build>
