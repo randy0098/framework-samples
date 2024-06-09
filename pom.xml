@@ -89,6 +89,7 @@
         <module>global-exception</module>
         <module>database-operation</module>
         <module>page-list</module>
+        <module>single-table-query</module>
     </modules>
 
     <build>
