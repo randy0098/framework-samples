@@ -1,11 +1,13 @@
 package com.framework.backend;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Application {
+@MapperScan("**.mapper")
+public class DatabaseOperationApplication {
   public static void main(String[] args) {
-    SpringApplication.run(Application.class, args);
+    SpringApplication.run(DatabaseOperationApplication.class, args);
   }
 }
