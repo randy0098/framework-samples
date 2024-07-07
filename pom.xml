@@ -91,6 +91,7 @@
         <module>page-list</module>
         <module>single-table-query</module>
         <module>multiple-table-query</module>
+        <module>autofill-field</module>
     </modules>
 
     <build>
