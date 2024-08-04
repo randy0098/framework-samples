@@ -92,6 +92,7 @@
         <module>single-table-query</module>
         <module>multiple-table-query</module>
         <module>autofill-field</module>
+        <module>autogenerate-id</module>
     </modules>
 
     <build>
