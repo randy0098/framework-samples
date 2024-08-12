@@ -93,6 +93,7 @@
         <module>multiple-table-query</module>
         <module>autofill-field</module>
         <module>autogenerate-id</module>
+        <module>api-doc</module>
     </modules>
 
     <build>
