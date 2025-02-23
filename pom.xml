@@ -94,6 +94,7 @@
         <module>autofill-field</module>
         <module>autogenerate-id</module>
         <module>api-doc</module>
+        <module>code-generator</module>
     </modules>
 
     <build>
